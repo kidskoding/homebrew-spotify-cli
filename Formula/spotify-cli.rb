@@ -5,7 +5,7 @@ class SpotifyCli < Formula
   sha256 "f55606303f0b32a71b31096144d7f4431446f59a45e58e4a3a6faaa512eee3ec"
 
   def install
-    bin.install "spotify-cli" => "spotify"
+    bin.install "target/release/spotify" => "spotify"
   end
 
   test do
