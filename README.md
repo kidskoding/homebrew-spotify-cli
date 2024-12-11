@@ -1,10 +1,11 @@
 # homebrew-spotify-cli
+
 This is the Homebrew tap for [**spotify-cli**](https://github.com/kidskoding/spotify-cli), a command-line interface (CLI) tool for Spotify.
 
 ## How to Use
 
 1. Add the tap to your Homebrew configuration:
-   
+
    ```bash
    brew tap kidskoding/spotify-cli
    ```
@@ -20,4 +21,3 @@ This is the Homebrew tap for [**spotify-cli**](https://github.com/kidskoding/spo
    ```bash
    spotify version
    ```
-   
