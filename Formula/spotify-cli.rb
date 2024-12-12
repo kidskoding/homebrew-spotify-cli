@@ -2,7 +2,7 @@ class SpotifyCli < Formula
   desc "This is the Homebrew tap for spotify-cli, a command-line tool for Spotify."
   homepage "https://github.com/kidskoding/spotify-cli"
   url "https://github.com/kidskoding/spotify-cli/releases/download/1.0.0/spotify-cli.tar.gz"
-  sha256 "f55606303f0b32a71b31096144d7f4431446f59a45e58e4a3a6faaa512eee3ec"
+  sha256 "7ee56ddd15ac0f8d6f2f4f9a60c81d53932388aacd0fb3fb4b525ce11499cbf6"
 
   def install
     bin.install "target/release/spotify" => "spotify"
